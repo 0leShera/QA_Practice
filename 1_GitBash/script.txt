@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd folder
+mkdir folder1 folder2 folder3
+cd folder3
+touch file1.txt file2.txt file3.txt file4.json file5.json
+mkdir folder4 folder5 folder6
+ls -a
+mv file1.txt file2.txt ../folder2
