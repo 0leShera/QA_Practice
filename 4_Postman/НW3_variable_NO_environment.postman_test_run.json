@@ -1,10 +1,10 @@
 {
-	"id": "81f42bf6-bc8c-48e7-a7b1-912e7e798f6c",
+	"id": "73c53cc3-1489-4e51-a4f2-d484489f0074",
 	"name": "НW3_variable_NO_environment",
-	"timestamp": "2022-02-13T11:50:01.482Z",
+	"timestamp": "2022-02-14T12:48:58.455Z",
 	"collection_id": "19273808-61d855f3-c012-49d5-8b2c-32be17502fe4",
 	"folder_id": 0,
-	"environment_id": "0",
+	"environment_id": "0ee79862-e41b-45c5-9376-e43eb37a6c5d",
 	"totalPass": 25,
 	"totalFail": 0,
 	"results": [
@@ -12,7 +12,7 @@
 			"id": "a31dc582-8d63-4224-b1e2-aebb61c85088",
 			"name": "1 login",
 			"url": "http://162.55.220.72:5005/login",
-			"time": 128,
+			"time": 127,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -27,7 +27,7 @@
 				}
 			},
 			"times": [
-				128
+				127
 			],
 			"allTests": [
 				{
@@ -46,7 +46,7 @@
 			},
 			"tests": {
 				"1. Status code is 200": true,
-				"2. Schema is valid": true,
+				"2. Response body is valid": true,
 				"3.1. Correct salary coeffitient: start_qa_salary = salary": true,
 				"3.2. Correct salary coeffitient: qa_salary_after_6_months = salary * 2": true,
 				"3.3. Correct salary coeffitient: qa_salary_after_12_months = salary * 2.9": true,
@@ -57,7 +57,7 @@
 					"pass": 1,
 					"fail": 0
 				},
-				"2. Schema is valid": {
+				"2. Response body is valid": {
 					"pass": 1,
 					"fail": 0
 				},
@@ -84,7 +84,7 @@
 			"allTests": [
 				{
 					"1. Status code is 200": true,
-					"2. Schema is valid": true,
+					"2. Response body is valid": true,
 					"3.1. Correct salary coeffitient: start_qa_salary = salary": true,
 					"3.2. Correct salary coeffitient: qa_salary_after_6_months = salary * 2": true,
 					"3.3. Correct salary coeffitient: qa_salary_after_12_months = salary * 2.9": true,
@@ -96,14 +96,14 @@
 			"id": "887385ce-bdb7-461e-8e37-455f6770b0a5",
 			"name": "3 new_data",
 			"url": "http://162.55.220.72:5005/new_data",
-			"time": 127,
+			"time": 125,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
 			},
 			"tests": {
 				"1. Status code is 200": true,
-				"2. Schema correct.": true,
+				"2. Response body is valid": true,
 				"3.1. Correct salarys: salary[0] = salary": true,
 				"3.2. Correct salarys: salary[1] = salary * 2": true,
 				"3.3. Correct salarys: salary[2] = salary * 3": true,
@@ -115,7 +115,7 @@
 					"pass": 1,
 					"fail": 0
 				},
-				"2. Schema correct.": {
+				"2. Response body is valid": {
 					"pass": 1,
 					"fail": 0
 				},
@@ -141,12 +141,12 @@
 				}
 			},
 			"times": [
-				127
+				125
 			],
 			"allTests": [
 				{
 					"1. Status code is 200": true,
-					"2. Schema correct.": true,
+					"2. Response body is valid": true,
 					"3.1. Correct salarys: salary[0] = salary": true,
 					"3.2. Correct salarys: salary[1] = salary * 2": true,
 					"3.3. Correct salarys: salary[2] = salary * 3": true,
@@ -159,14 +159,14 @@
 			"id": "860c374b-3592-4769-aa84-3c3c9ee0be51",
 			"name": "4 test_pet_info",
 			"url": "http://162.55.220.72:5005/test_pet_info",
-			"time": 127,
+			"time": 126,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
 			},
 			"tests": {
 				"1. Status code is 200": true,
-				"2. Schema is correct": true,
+				"2. Response body is valid": true,
 				"3.1. Correct weight: daily_food = weight * 0.012": true,
 				"3.2. Correct weight: daily_sleep = weight * 2.5": true
 			},
@@ -175,7 +175,7 @@
 					"pass": 1,
 					"fail": 0
 				},
-				"2. Schema is correct": {
+				"2. Response body is valid": {
 					"pass": 1,
 					"fail": 0
 				},
@@ -189,12 +189,12 @@
 				}
 			},
 			"times": [
-				127
+				126
 			],
 			"allTests": [
 				{
 					"1. Status code is 200": true,
-					"2. Schema is correct": true,
+					"2. Response body is valid": true,
 					"3.1. Correct weight: daily_food = weight * 0.012": true,
 					"3.2. Correct weight: daily_sleep = weight * 2.5": true
 				}
@@ -204,14 +204,14 @@
 			"id": "04f98dda-1c3b-4863-8b48-40f31f97f6f0",
 			"name": "5 get_test_user",
 			"url": "http://162.55.220.72:5005/get_test_user",
-			"time": 125,
+			"time": 123,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
 			},
 			"tests": {
 				"1. Status code is 200": true,
-				"2. Schema is correct": true,
+				"2. Response body is valid": true,
 				"3. Correct name: name request = name response.": true,
 				"4. Correct age: age request = age response.": true
 			},
@@ -220,7 +220,7 @@
 					"pass": 1,
 					"fail": 0
 				},
-				"2. Schema is correct": {
+				"2. Response body is valid": {
 					"pass": 1,
 					"fail": 0
 				},
@@ -234,12 +234,12 @@
 				}
 			},
 			"times": [
-				125
+				123
 			],
 			"allTests": [
 				{
 					"1. Status code is 200": true,
-					"2. Schema is correct": true,
+					"2. Response body is valid": true,
 					"3. Correct name: name request = name response.": true,
 					"4. Correct age: age request = age response.": true
 				}
@@ -249,7 +249,7 @@
 			"id": "f3f8483d-1ba2-44b9-8652-ffb1dd171fe6",
 			"name": "6 currency",
 			"url": "http://162.55.220.72:5005/currency",
-			"time": 579,
+			"time": 591,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -264,7 +264,7 @@
 				}
 			},
 			"times": [
-				579
+				591
 			],
 			"allTests": [
 				{
@@ -276,38 +276,56 @@
 			"id": "76959a4c-3946-4cc0-afb9-796173b8a1a9",
 			"name": "7 curr_byn",
 			"url": "http://162.55.220.72:5005/curr_byn",
-			"time": 256,
+			"time": 319,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
 			},
 			"tests": {
 				"1. Status code is 200.": true,
-				"2. Schema is correct": true
+				"2. Response body is valid": true
 			},
 			"testPassFailCounts": {
 				"1. Status code is 200.": {
 					"pass": 1,
 					"fail": 0
 				},
-				"2. Schema is correct": {
+				"2. Response body is valid": {
 					"pass": 1,
 					"fail": 0
 				}
 			},
 			"times": [
-				256
+				319
 			],
 			"allTests": [
 				{
 					"1. Status code is 200.": true,
-					"2. Schema is correct": true
+					"2. Response body is valid": true
 				}
+			]
+		},
+		{
+			"id": "7e21dd36-ad07-475d-a258-379709ba1b74",
+			"name": "8 currency ***",
+			"url": "http://162.55.220.72:5005/curr_byn",
+			"time": 125,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				125
+			],
+			"allTests": [
+				{}
 			]
 		}
 	],
 	"count": 1,
-	"totalTime": 1465,
+	"totalTime": 1659,
 	"collection": {
 		"requests": [
 			{
@@ -336,6 +354,10 @@
 			},
 			{
 				"id": "76959a4c-3946-4cc0-afb9-796173b8a1a9",
+				"method": "POST"
+			},
+			{
+				"id": "7e21dd36-ad07-475d-a258-379709ba1b74",
 				"method": "POST"
 			}
 		]

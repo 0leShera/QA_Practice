@@ -1,10 +1,10 @@
 {
-	"id": "fab5bc8c-ff0b-4de4-aa29-626442b5c157",
+	"id": "5d381fa3-dbf3-453d-8c3d-f4fe1adf3410",
 	"name": "HW2_variable_NO_environment",
-	"timestamp": "2022-02-13T11:49:48.683Z",
+	"timestamp": "2022-02-14T12:48:12.808Z",
 	"collection_id": "19273808-6f37e96d-6682-44cd-a509-fc7d78830f12",
 	"folder_id": 0,
-	"environment_id": "0",
+	"environment_id": "0ee79862-e41b-45c5-9376-e43eb37a6c5d",
 	"totalPass": 39,
 	"totalFail": 0,
 	"results": [
@@ -12,7 +12,7 @@
 			"id": "1d70611e-7949-4987-ab71-23c9f3dfa96d",
 			"name": "1 First",
 			"url": "http://162.55.220.72:5005/first",
-			"time": 124,
+			"time": 130,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -32,7 +32,7 @@
 				}
 			},
 			"times": [
-				124
+				130
 			],
 			"allTests": [
 				{
@@ -45,7 +45,7 @@
 			"id": "6fe8a3fe-5549-4f22-ae99-124d478b116f",
 			"name": "2 User_info_3",
 			"url": "http://162.55.220.72:5005/user_info_3",
-			"time": 130,
+			"time": 128,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -95,7 +95,7 @@
 				}
 			},
 			"times": [
-				130
+				128
 			],
 			"allTests": [
 				{
@@ -114,7 +114,7 @@
 			"id": "2a6ba4c2-2298-47df-ab4e-2049e1ef0ceb",
 			"name": "3 Object_info_3",
 			"url": "http://162.55.220.72:5005/object_info_3?name=Olesa&age=24&salary=1000",
-			"time": 125,
+			"time": 126,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -164,7 +164,7 @@
 				}
 			},
 			"times": [
-				125
+				126
 			],
 			"allTests": [
 				{
@@ -183,7 +183,7 @@
 			"id": "c0eab19a-d6b5-4c8c-b448-a02b44337299",
 			"name": "4 Object_info_4",
 			"url": "http://162.55.220.72:5005/object_info_4?name=Olesa&age=24&salary=1000",
-			"time": 123,
+			"time": 124,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -223,7 +223,7 @@
 				}
 			},
 			"times": [
-				123
+				124
 			],
 			"allTests": [
 				{
@@ -240,7 +240,7 @@
 			"id": "351755be-f1c4-4519-9085-12ee239f1d99",
 			"name": "5 User_info_2",
 			"url": "http://162.55.220.72:5005/user_info_2",
-			"time": 131,
+			"time": 129,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -325,7 +325,7 @@
 				}
 			},
 			"times": [
-				131
+				129
 			],
 			"allTests": [
 				{
@@ -349,7 +349,7 @@
 		}
 	],
 	"count": 1,
-	"totalTime": 633,
+	"totalTime": 637,
 	"collection": {
 		"requests": [
 			{
